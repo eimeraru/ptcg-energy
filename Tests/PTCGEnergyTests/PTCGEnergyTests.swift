@@ -2,14 +2,21 @@ import XCTest
 @testable import PTCGEnergy
 
 final class PTCGEnergyTests: XCTestCase {
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct
-        // results.
-        XCTAssertEqual(PTCGEnergy().text, "Hello, World!")
+    func testEnergyName() {
+        XCTAssertEqual(PTCGEnergy.colorLess.name, "むしょく")
+        XCTAssertEqual(PTCGEnergy.fire.name, "ほのお")
+        XCTAssertEqual(PTCGEnergy.water.name, "みず")
+        XCTAssertEqual(PTCGEnergy.electric.name, "でんき")
+        XCTAssertEqual(PTCGEnergy.grass.name, "くさ")
+        XCTAssertEqual(PTCGEnergy.fighting.name, "とう")
+        XCTAssertEqual(PTCGEnergy.psychic.name, "ちょう")
+        XCTAssertEqual(PTCGEnergy.steel.name, "はがね")
+        XCTAssertEqual(PTCGEnergy.dark.name, "あく")
+        XCTAssertEqual(PTCGEnergy.dragon.name, "ドラゴン")
+        XCTAssertEqual(PTCGEnergy.fairy.name, "フェアリー")
     }
 
     static var allTests = [
-        ("testExample", testExample),
+        ("testEnergyName", testEnergyName),
     ]
 }
