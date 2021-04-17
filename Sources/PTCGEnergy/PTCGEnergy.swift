@@ -10,7 +10,7 @@ import Foundation
 /**
  * エネルギー種別
  */
-enum PTCGEnergy {
+public enum PTCGEnergy {
 
     /**
      ほのお
@@ -67,7 +67,7 @@ enum PTCGEnergy {
      */
     case colorLess
 
-    var name: String {
+    public var name: String {
         switch self {
         case .colorLess:
             return "むしょく"
@@ -94,7 +94,7 @@ enum PTCGEnergy {
         }
     }
 
-    var emoji: String {
+    public var emoji: String {
         switch self {
         case .colorLess:
             return "*️⃣"
