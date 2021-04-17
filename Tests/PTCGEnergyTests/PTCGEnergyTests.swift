@@ -3,15 +3,15 @@ import XCTest
 
 final class PTCGEnergyTests: XCTestCase {
     func testEnergyName() {
-        XCTAssertEqual(PTCGEnergy.colorLess.name, "むしょく")
-        XCTAssertEqual(PTCGEnergy.fire.name, "ほのお")
-        XCTAssertEqual(PTCGEnergy.water.name, "みず")
-        XCTAssertEqual(PTCGEnergy.electric.name, "でんき")
-        XCTAssertEqual(PTCGEnergy.grass.name, "くさ")
-        XCTAssertEqual(PTCGEnergy.fighting.name, "とう")
-        XCTAssertEqual(PTCGEnergy.psychic.name, "ちょう")
-        XCTAssertEqual(PTCGEnergy.steel.name, "はがね")
-        XCTAssertEqual(PTCGEnergy.dark.name, "あく")
+        XCTAssertEqual(PTCGEnergy.colorLess.name, "無色")
+        XCTAssertEqual(PTCGEnergy.fire.name, "炎")
+        XCTAssertEqual(PTCGEnergy.water.name, "水")
+        XCTAssertEqual(PTCGEnergy.electric.name, "電気")
+        XCTAssertEqual(PTCGEnergy.grass.name, "草")
+        XCTAssertEqual(PTCGEnergy.fighting.name, "闘")
+        XCTAssertEqual(PTCGEnergy.psychic.name, "超")
+        XCTAssertEqual(PTCGEnergy.steel.name, "鋼")
+        XCTAssertEqual(PTCGEnergy.dark.name, "悪")
         XCTAssertEqual(PTCGEnergy.dragon.name, "ドラゴン")
         XCTAssertEqual(PTCGEnergy.fairy.name, "フェアリー")
     }

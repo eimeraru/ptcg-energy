@@ -70,25 +70,25 @@ public enum PTCGEnergy {
     public var name: String {
         switch self {
         case .colorLess:
-            return "むしょく"
+            return "無色"
         case .fire:
-            return "ほのお"
+            return "炎"
         case .water:
-            return "みず"
+            return "水"
         case .electric:
-            return "でんき"
+            return "雷"
         case .grass:
-            return "くさ"
+            return "草"
         case .fighting:
-            return "とう"
+            return "闘"
         case .psychic:
-            return "ちょう"
+            return "超"
         case .dragon:
             return "ドラゴン"
         case .steel:
-            return "はがね"
+            return "鋼"
         case .dark:
-            return "あく"
+            return "悪"
         case .fairy:
             return "フェアリー"
         }
