@@ -15,22 +15,12 @@
 | water | (水) | 💧 |
 | electric | (雷) | ⚡️ |
 | grass | (草) | 🌳 |
-
-
-```
-        case .fighting:
-            return "🦧"
-        case .psychic:
-            return "⚛️"
-        case .dragon:
-            return "🐲"
-        case .steel:
-            return "⚙️"
-        case .dark:
-            return "🔳"
-        case .fairy:
-            return "💖"
-```
+| fighting | (闘) | 🦧 |
+| psychic | (超) | ⚛️ |
+| dragon | (ドラゴン) | 🐲 |
+| steel | (鋼) | ⚙️ |
+| dark | (悪) | 🔳 |
+| fairy | (フェアリー) | 💖 |
 
 ## How to use
 
